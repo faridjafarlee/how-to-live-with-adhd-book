@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>How to Live with ADHD | A Friendly Guide by Farid Jafarli</title>
+    <meta name="description"
+        content="Stop trying to fix yourself. Learn to work with your brain's natural rhythm. A compassionate, science-backed guide to living well with ADHD by Farid Jafarli.">
+    <meta name="keywords"
+        content="ADHD book, ADHD guide, neurodivergent, executive function, ADHD strategies, Farid Jafarli, mental health, self-help book">
+    <meta name="author" content="Farid Jafarli">
+    <link rel="canonical" href="https://www.amazon.com/dp/B0FZHX53C3" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="book">
+    <meta property="og:url" content="https://www.amazon.com/dp/B0FZHX53C3">
+    <meta property="og:title" content="How to Live with ADHD: A Friendly Guide">
+    <meta property="og:description"
+        content="What if you don't need to be fixed? Discover a new way to understand your brain and live well with ADHD.">
+    <meta property="og:image" content="HowToLiveWithADHD-ebook.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="How to Live with ADHD by Farid Jafarli">
+    <meta property="twitter:description" content="Stop fighting your brain. Start understanding it.">
+    <meta property="twitter:image" content="HowToLiveWithADHD-ebook.jpg">
+
+    <!-- Structured Data (JSON-LD) for Rich Snippets -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Book",
+      "name": "How to Live with ADHD: A Friendly Guide to Understanding and Living Well with Your Brain",
+      "author": {
+        "@type": "Person",
+        "name": "Farid Jafarli",
+        "url": "https://www.amazon.com/stores/author/B0FNWPDCLQ/about"
+      },
+      "url": "https://www.amazon.com/dp/B0FZHX53C3",
+      "image": "HowToLiveWithADHD-ebook.jpg",
+      "description": "A compassionate, science-backed guide to living well with ADHD. Learn to work with your brain's natural rhythm instead of fighting it.",
+      "inLanguage": "en",
+      "isbn": "B0FZHX53C3", 
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": "9.99", 
+        "priceCurrency": "USD",
+        "url": "https://www.amazon.com/dp/B0FZHX53C3"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "120"
+      }
+    }
+    </script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom Styles/Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            teal: '#0f4c5c',    // Deep Teal from silhouette
+                            sand: '#fadd89',    // Warm Yellow/Beige form background
+                            light: '#fdf6e3',   // Light cream
+                            orange: '#e36414',  // Accent Orange from fish/brain
+                            dark: '#0a333d'     // Darker text color
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Lora', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- GOOGLE ANALYTICS SETUP -->
+    <!-- Replace 'G-XXXXXXXXXX' with your actual Google Analytics Measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        // Initialize with your ID
+        gtag('config', 'G-XXXXXXXXXX');
+
+        // Function to track Amazon Clicks
+        function trackAmazonClick(location) {
+            console.log('Tracking click to Amazon from: ' + location);
+            gtag('event', 'purchase_intent', {
+                'event_category': 'ecommerce',
+                'event_label': 'Amazon Button - ' + location,
+                'value': 1
+            });
+            return true;
+        }
+    </script>
+
+    <style>
+        /* Custom texture overlay for that "book cover" feel */
+        .bg-texture {
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23d6b868' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        .book-shadow {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04), 10px 0px 30px -5px rgba(15, 76, 92, 0.4);
+        }
+
+        /* Loader Animation */
+        .loader {
+            border: 3px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 3px solid #e36414;
+            width: 20px;
+            height: 20px;
+            -webkit-animation: spin 1s linear infinite;
+            /* Safari */
+            animation: spin 1s linear infinite;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body class="font-sans text-brand-dark bg-brand-light selection:bg-brand-orange selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-brand-light/90 backdrop-blur-sm border-b border-brand-teal/10">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="font-serif font-bold text-xl text-brand-teal tracking-tight">How to Live with ADHD</a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#about" class="text-sm font-medium hover:text-brand-orange transition-colors">About the
+                    Book</a>
+                <a href="#toolkit" class="text-sm font-medium hover:text-brand-orange transition-colors">Tools</a>
+                <a href="#author" class="text-sm font-medium hover:text-brand-orange transition-colors">About Farid</a>
+                <a href="#reviews"
+                    class="text-sm font-medium hover:text-brand-orange transition-colors">Testimonials</a>
+                <a href="https://www.amazon.com/dp/B0FZHX53C3" target="_blank" onclick="trackAmazonClick('Nav')"
+                    class="bg-brand-orange hover:bg-orange-600 text-white px-6 py-2 rounded-full font-medium transition-all transform hover:scale-105 shadow-md">
+                    Buy on Amazon
+                </a>
+            </div>
+            <!-- Mobile Menu Button (Simple implementation) -->
+            <button class="md:hidden text-brand-teal"
+                onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 p-4 shadow-lg">
+            <a href="#about" class="block py-2 text-brand-dark">About the Book</a>
+            <a href="#toolkit" class="block py-2 text-brand-dark">Tools</a>
+            <a href="#author" class="block py-2 text-brand-dark">About Farid</a>
+            <a href="https://www.amazon.com/dp/B0FZHX53C3" target="_blank" onclick="trackAmazonClick('MobileMenu')"
+                class="block mt-4 text-center bg-brand-orange text-white py-3 rounded-lg font-bold">Buy on Amazon</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-brand-sand bg-texture">
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+
+                <!-- Text Content -->
+                <div class="lg:w-1/2 space-y-8 text-center lg:text-left">
+                    <div
+                        class="inline-block px-4 py-1 rounded-full bg-brand-teal/10 text-brand-teal font-semibold text-sm tracking-wide mb-2 animate-fade-in">
+                        #1 New Release in Mental Health
+                    </div>
+                    <h1 class="font-serif text-5xl lg:text-7xl font-bold text-brand-teal leading-tight">
+                        What if you don't need to be <span class="text-brand-orange italic">fixed?</span>
+                    </h1>
+                    <p class="text-xl text-brand-dark/80 leading-relaxed">
+                        Stop fighting your brain. Start understanding it. A friendly, science-backed guide to moving
+                        from shame to strength.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
+                        <a href="https://www.amazon.com/dp/B0FZHX53C3" target="_blank"
+                            onclick="trackAmazonClick('HeroMain')"
+                            class="group flex items-center justify-center gap-3 bg-brand-teal text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:bg-[#0a3a47] transition-all transform hover:-translate-y-1">
+                            <i class="fab fa-amazon text-2xl"></i>
+                            Get the Book
+                            <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                        <a href="#preview"
+                            class="flex items-center justify-center gap-2 px-8 py-4 rounded-full text-brand-teal font-semibold border-2 border-brand-teal hover:bg-brand-teal/5 transition-colors">
+                            Read a Preview
+                        </a>
+                    </div>
+
+                    <p class="text-sm text-brand-dark/60 pt-2">
+                        <i class="fas fa-check-circle text-brand-orange mr-1"></i> Available on Kindle & Paperback
+                    </p>
+                </div>
+
+                <!-- Book Cover Image -->
+                <div class="lg:w-1/2 flex justify-center lg:justify-end relative">
+                    <!-- Decorative blob behind book -->
+                    <div
+                        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-white/30 blur-3xl rounded-full">
+                    </div>
+
+                    <!-- The Book -->
+                    <div class="relative w-64 md:w-80 lg:w-[400px] transition-transform hover:scale-105 duration-500">
+                        <!-- Fallback if image fails to load -->
+                        <img src="HowToLiveWithADHD-ebook.jpg" alt="Book Cover: How to Live with ADHD by Farid Jafarli"
+                            class="w-full h-auto rounded-lg book-shadow transform rotate-[-3deg] hover:rotate-0 transition-all duration-500"
+                            onerror="this.src='https://placehold.co/400x600/0f4c5c/ffffff?text=Book+Cover+Image';">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Wave Divider -->
+        <div class="absolute bottom-0 left-0 w-full leading-none">
+            <svg class="w-full h-12 lg:h-24 text-brand-light" viewBox="0 0 1440 320" fill="currentColor">
+                <path fill-opacity="1"
+                    d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,112C672,96,768,96,864,112C960,128,1056,160,1152,160C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+    </header>
+
+    <!-- Agitation / The Problem Section -->
+    <section class="py-20 bg-brand-light" id="about">
+        <div class="container mx-auto px-6 max-w-4xl text-center">
+            <h2 class="font-serif text-3xl md:text-4xl font-bold text-brand-teal mb-12">Does this sound familiar?</h2>
+
+            <div class="grid md:grid-cols-3 gap-8 text-left">
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:border-brand-orange/30 transition-all">
+                    <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center text-red-500 mb-6">
+                        <i class="fas fa-clock text-xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-3">Time Blindness</h3>
+                    <p class="text-gray-600">You plan for 15 minutes, but 3 hours vanish. You're always rushing, always
+                        apologizing, always feeling "behind."</p>
+                </div>
+
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:border-brand-orange/30 transition-all">
+                    <div
+                        class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center text-brand-orange mb-6">
+                        <i class="fas fa-brain text-xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-3">The "Lazy" Myth</h3>
+                    <p class="text-gray-600">You're exhausted from trying twice as hard as everyone else just to get
+                        half as much done. You're not lazy, you're unsupported.</p>
+                </div>
+
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:border-brand-orange/30 transition-all">
+                    <div
+                        class="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center text-brand-teal mb-6">
+                        <i class="fas fa-heart-broken text-xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-3">Emotional Intensity</h3>
+                    <p class="text-gray-600">Rejection sensitivity hits hard. A small comment can ruin your day. You
+                        feel everything at 100% volume.</p>
+                </div>
+            </div>
+
+            <div class="mt-16">
+                <p class="text-2xl font-serif italic text-brand-teal">
+                    "You are not broken. Your brain isn't malfunctioning. It's wired differently."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who Is This For? -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <div class="flex flex-col md:flex-row gap-12 items-center">
+                <div class="md:w-1/2">
+                    <img src="https://placehold.co/600x400/0f4c5c/ffffff?text=You+Are+Not+Alone"
+                        alt="Person thinking creatively"
+                        class="rounded-2xl shadow-lg transform rotate-1 hover:rotate-0 transition-all duration-500">
+                </div>
+                <div class="md:w-1/2 space-y-6">
+                    <h2 class="font-serif text-3xl font-bold text-brand-teal">Who Is This Book For?</h2>
+                    <p class="text-lg text-gray-600">This isn't just for the "hyperactive kid." It's for the adults who
+                        have been masking their struggles for years.</p>
+
+                    <div class="space-y-4 mt-6">
+                        <div class="flex gap-4">
+                            <i class="fas fa-user-astronaut text-brand-orange text-xl mt-1"></i>
+                            <div>
+                                <h4 class="font-bold text-brand-dark">The "Potential" Carrier</h4>
+                                <p class="text-sm text-gray-600">You've been told your whole life you have "so much
+                                    potential" if you'd just apply yourself, creating a heavy burden of shame.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <i class="fas fa-moon text-brand-orange text-xl mt-1"></i>
+                            <div>
+                                <h4 class="font-bold text-brand-dark">The 3 AM Researcher</h4>
+                                <p class="text-sm text-gray-600">You can fall into a research rabbit hole for hours but
+                                    struggle to pay a bill that takes 2 minutes.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <i class="fas fa-mask text-brand-orange text-xl mt-1"></i>
+                            <div>
+                                <h4 class="font-bold text-brand-dark">The Burned-Out Perfectionist</h4>
+                                <p class="text-sm text-gray-600">You overcompensate for your brain's differences by
+                                    trying to be perfect, leading to cycles of exhaustion.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Paradigm Shift -->
+    <section class="py-20 bg-brand-light border-y border-brand-teal/5">
+        <div class="container mx-auto px-6 max-w-4xl text-center">
+            <h2 class="font-serif text-3xl md:text-4xl font-bold text-brand-teal mb-6">The Paradigm Shift</h2>
+            <p class="text-lg text-brand-dark/70 mb-12 max-w-2xl mx-auto">Most advice fails because it fights your
+                brain. This book teaches you to work <em>with</em> it.</p>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Old Way -->
+                <div
+                    class="bg-white p-8 rounded-2xl border-l-4 border-gray-300 text-left opacity-70 hover:opacity-100 transition-opacity">
+                    <h3 class="font-bold text-gray-500 mb-4 text-sm uppercase tracking-wider">Traditional Advice</h3>
+                    <ul class="space-y-4">
+                        <li class="flex gap-3 text-gray-600">
+                            <i class="fas fa-times text-red-400 mt-1"></i>
+                            "Just buy a planner and stick to it."
+                        </li>
+                        <li class="flex gap-3 text-gray-600">
+                            <i class="fas fa-times text-red-400 mt-1"></i>
+                            "Try harder to focus."
+                        </li>
+                        <li class="flex gap-3 text-gray-600">
+                            <i class="fas fa-times text-red-400 mt-1"></i>
+                            "Sit still and eliminate distractions."
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- New Way -->
+                <div
+                    class="bg-white p-8 rounded-2xl border-l-4 border-brand-orange text-left shadow-lg transform md:-translate-y-4">
+                    <h3 class="font-bold text-brand-orange mb-4 text-sm uppercase tracking-wider">The Friendly Guide
+                        Approach</h3>
+                    <ul class="space-y-4">
+                        <li class="flex gap-3 text-brand-dark font-medium">
+                            <i class="fas fa-check text-brand-teal mt-1"></i>
+                            Externalize memory because your brain won't hold it.
+                        </li>
+                        <li class="flex gap-3 text-brand-dark font-medium">
+                            <i class="fas fa-check text-brand-teal mt-1"></i>
+                            Follow the dopamine to fuel your motivation.
+                        </li>
+                        <li class="flex gap-3 text-brand-dark font-medium">
+                            <i class="fas fa-check text-brand-teal mt-1"></i>
+                            Movement is medicine for a restless mind.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features / Solution Section -->
+    <section class="py-20 bg-brand-teal text-white relative overflow-hidden">
+        <!-- Background decoration -->
+        <div class="absolute top-0 right-0 opacity-10 pointer-events-none">
+            <i class="fas fa-brain text-[400px] -mr-20 -mt-20"></i>
+        </div>
+
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <div class="lg:w-1/2">
+                    <h2 class="font-serif text-4xl font-bold mb-6 text-brand-sand">A Different Kind of Guide</h2>
+                    <p class="text-lg text-gray-200 mb-8 leading-relaxed">
+                        Most ADHD books give you a list of calendars to buy or apps to download. This book starts
+                        deeper. It bridges the gap between complex neuroscience and your daily reality.
+                    </p>
+
+                    <ul class="space-y-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-brand-orange mt-1 mr-4 text-xl"></i>
+                            <div>
+                                <h4 class="font-bold text-brand-sand text-lg">Neuroscience in Plain English</h4>
+                                <p class="text-gray-300 text-sm">Understand dopamine, executive function, and the
+                                    default mode network without needing a PhD.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-brand-orange mt-1 mr-4 text-xl"></i>
+                            <div>
+                                <h4 class="font-bold text-brand-sand text-lg">The "Micro-Practice" Approach</h4>
+                                <p class="text-gray-300 text-sm">Forget rigid routines. Learn small, forgiving systems
+                                    that bend with your brain instead of breaking.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-brand-orange mt-1 mr-4 text-xl"></i>
+                            <div>
+                                <h4 class="font-bold text-brand-sand text-lg">Compassion First</h4>
+                                <p class="text-gray-300 text-sm">Shift the internal narrative from "What's wrong with
+                                    me?" to "How can I support myself?"</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="mt-10">
+                        <a href="https://www.amazon.com/dp/B0FZHX53C3" target="_blank"
+                            onclick="trackAmazonClick('FeaturesSection')"
+                            class="inline-block bg-brand-sand text-brand-teal px-8 py-3 rounded-full font-bold hover:bg-white transition-colors shadow-lg">
+                            Start Reading Now
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lg:w-1/2 bg-white/5 backdrop-blur-md rounded-3xl p-8 border border-white/10">
+                    <h3 class="font-serif text-2xl mb-6 text-brand-sand border-b border-white/10 pb-4">Chapter
+                        Highlights</h3>
+                    <div class="space-y-4">
+                        <div
+                            class="flex gap-4 items-center p-3 hover:bg-white/5 rounded-lg transition-colors cursor-default group">
+                            <span class="font-serif text-brand-orange text-xl font-bold">01</span>
+                            <span class="group-hover:translate-x-2 transition-transform">The Myth of Laziness</span>
+                        </div>
+                        <div
+                            class="flex gap-4 items-center p-3 hover:bg-white/5 rounded-lg transition-colors cursor-default group">
+                            <span class="font-serif text-brand-orange text-xl font-bold">02</span>
+                            <span class="group-hover:translate-x-2 transition-transform">Time That Slips and
+                                Stretches</span>
+                        </div>
+                        <div
+                            class="flex gap-4 items-center p-3 hover:bg-white/5 rounded-lg transition-colors cursor-default group">
+                            <span class="font-serif text-brand-orange text-xl font-bold">03</span>
+                            <span class="group-hover:translate-x-2 transition-transform">The Emotional Amplifier</span>
+                        </div>
+                        <div
+                            class="flex gap-4 items-center p-3 hover:bg-white/5 rounded-lg transition-colors cursor-default group">
+                            <span class="font-serif text-brand-orange text-xl font-bold">04</span>
+                            <span class="group-hover:translate-x-2 transition-transform">Body First, Brain
+                                Follows</span>
+                        </div>
+                        <div
+                            class="flex gap-4 items-center p-3 hover:bg-white/5 rounded-lg transition-colors cursor-default group">
+                            <span class="font-serif text-brand-orange text-xl font-bold">05</span>
+                            <span class="group-hover:translate-x-2 transition-transform">Redefining Success</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ADHD Toolkit Section (Gemini API Integration) -->
+    <section class="py-20 bg-brand-light" id="toolkit">
+        <div class="container mx-auto px-6">
+            <div class="max-w-3xl mx-auto">
+                <div class="text-center mb-10">
+                    <h2 class="font-serif text-4xl font-bold text-brand-teal mb-4">ADHD Toolkit ✨</h2>
+                    <p class="text-lg text-brand-dark/70">Experience the book's philosophy in action. Use these tools to
+                        overcome task paralysis, reframe negative thoughts, or stimulate your brain.</p>
+                </div>
+
+                <!-- Toolkit Container -->
+                <div class="bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden">
+                    <!-- Tabs -->
+                    <div class="flex border-b border-gray-100 overflow-x-auto">
+                        <button onclick="switchTab('breaker')" id="tab-breaker"
+                            class="flex-1 py-4 px-4 text-center font-bold text-brand-teal border-b-4 border-brand-orange bg-brand-light/30 transition-all hover:bg-brand-light/50 whitespace-nowrap">
+                            <i class="fas fa-gavel mr-2"></i> Micro-Step Generator ✨
+                        </button>
+                        <button onclick="switchTab('reframe')" id="tab-reframe"
+                            class="flex-1 py-4 px-4 text-center font-bold text-gray-400 border-b-4 border-transparent hover:text-brand-teal transition-all whitespace-nowrap">
+                            <i class="fas fa-heart mr-2"></i> Kindness Reframe ✨
+                        </button>
+                        <button onclick="switchTab('menu')" id="tab-menu"
+                            class="flex-1 py-4 px-4 text-center font-bold text-gray-400 border-b-4 border-transparent hover:text-brand-teal transition-all whitespace-nowrap">
+                            <i class="fas fa-utensils mr-2"></i> Dopamine Menu Chef 🍳
+                        </button>
+                    </div>
+
+                    <!-- Content: Task Breaker -->
+                    <div id="content-breaker" class="p-8 md:p-12">
+                        <h3 class="text-xl font-bold text-brand-teal mb-2">Overwhelmed by a task?</h3>
+                        <p class="text-gray-600 mb-6">Enter the big, scary task below, and we'll break it down into
+                            tiny, non-threatening micro-steps you can actually start.</p>
+
+                        <div class="mb-4">
+                            <label for="taskInput" class="block text-sm font-bold text-brand-dark mb-2">What do you need
+                                to do?</label>
+                            <input type="text" id="taskInput"
+                                placeholder="e.g., Clean the kitchen, Write my report, Call the doctor..."
+                                class="w-full p-4 rounded-xl border-2 border-gray-200 focus:border-brand-teal focus:outline-none transition-colors text-lg">
+                        </div>
+
+                        <button onclick="generateMicroSteps()"
+                            class="w-full bg-brand-teal hover:bg-[#0a3a47] text-white font-bold py-4 rounded-xl transition-all transform hover:-translate-y-1 flex items-center justify-center gap-2">
+                            <span id="breakerBtnText">Break it Down ✨</span>
+                            <div id="breakerLoader" class="loader hidden"></div>
+                        </button>
+
+                        <div id="breakerResult"
+                            class="hidden mt-8 p-6 bg-brand-light rounded-xl border border-brand-teal/10 animate-fade-in">
+                            <h4 class="font-serif font-bold text-brand-teal mb-4">Your Micro-Steps:</h4>
+                            <div id="breakerOutput" class="prose text-brand-dark"></div>
+                        </div>
+                    </div>
+
+                    <!-- Content: Reframe -->
+                    <div id="content-reframe" class="hidden p-8 md:p-12">
+                        <h3 class="text-xl font-bold text-brand-teal mb-2">Beating yourself up?</h3>
+                        <p class="text-gray-600 mb-6">Enter a harsh thought you're having, and we'll rewrite it to be
+                            compassionate and scientifically accurate to your ADHD brain.</p>
+
+                        <div class="mb-4">
+                            <label for="thoughtInput" class="block text-sm font-bold text-brand-dark mb-2">What is your
+                                inner critic saying?</label>
+                            <textarea id="thoughtInput" rows="3"
+                                placeholder="e.g., I'm so lazy for not finishing this, I'm a mess, I should be able to do this..."
+                                class="w-full p-4 rounded-xl border-2 border-gray-200 focus:border-brand-orange focus:outline-none transition-colors text-lg"></textarea>
+                        </div>
+
+                        <button onclick="generateReframe()"
+                            class="w-full bg-brand-orange hover:bg-orange-600 text-white font-bold py-4 rounded-xl transition-all transform hover:-translate-y-1 flex items-center justify-center gap-2">
+                            <span id="reframeBtnText">Reframe with Kindness ✨</span>
+                            <div id="reframeLoader" class="loader hidden" style="border-top-color: #fff;"></div>
+                        </button>
+
+                        <div id="reframeResult"
+                            class="hidden mt-8 p-6 bg-brand-sand/20 rounded-xl border border-brand-orange/10 animate-fade-in">
+                            <h4 class="font-serif font-bold text-brand-orange mb-2">A Kinder Perspective:</h4>
+                            <p id="reframeOutput" class="text-lg font-medium text-brand-dark italic"></p>
+                        </div>
+                    </div>
+
+                    <!-- Content: Dopamine Menu -->
+                    <div id="content-menu" class="hidden p-8 md:p-12">
+                        <h3 class="text-xl font-bold text-brand-teal mb-2">Brain needs stimulation?</h3>
+                        <p class="text-gray-600 mb-6">Tell us how you're feeling, and we'll serve up a "Dopamine Menu"
+                            of quick activities to regulate your nervous system.</p>
+
+                        <div class="mb-4">
+                            <label for="moodInput" class="block text-sm font-bold text-brand-dark mb-2">How are you
+                                feeling right now?</label>
+                            <input type="text" id="moodInput"
+                                placeholder="e.g., Bored, Restless, Tired, Overwhelmed, Stuck..."
+                                class="w-full p-4 rounded-xl border-2 border-gray-200 focus:border-brand-teal focus:outline-none transition-colors text-lg">
+                        </div>
+
+                        <button onclick="generateDopamineMenu()"
+                            class="w-full bg-brand-teal hover:bg-[#0a3a47] text-white font-bold py-4 rounded-xl transition-all transform hover:-translate-y-1 flex items-center justify-center gap-2">
+                            <span id="menuBtnText">Cook Up a Menu 🍳</span>
+                            <div id="menuLoader" class="loader hidden"></div>
+                        </button>
+
+                        <div id="menuResult"
+                            class="hidden mt-8 p-6 bg-brand-light rounded-xl border border-brand-teal/10 animate-fade-in">
+                            <h4 class="font-serif font-bold text-brand-teal mb-4">Your Dopamine Menu:</h4>
+                            <div id="menuOutput" class="prose text-brand-dark"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quotes / Sneak Peek -->
+    <section class="py-20 bg-brand-sand bg-texture">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="font-serif text-3xl md:text-4xl font-bold text-brand-teal">Words from the Book</h2>
+                <div class="w-24 h-1 bg-brand-orange mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <div class="bg-white p-10 rounded-2xl shadow-lg relative">
+                    <i class="fas fa-quote-left text-4xl text-brand-teal/10 absolute top-6 left-6"></i>
+                    <p class="text-xl text-brand-dark font-serif leading-relaxed italic relative z-10">
+                        "The goal isn't to turn you into some kind of hyper-efficient machine. The goal is to help you
+                        live well, with clarity and compassion for yourself."
+                    </p>
+                </div>
+
+                <div class="bg-brand-teal p-10 rounded-2xl shadow-lg relative text-white">
+                    <i class="fas fa-quote-left text-4xl text-white/10 absolute top-6 left-6"></i>
+                    <p class="text-xl font-serif leading-relaxed italic relative z-10">
+                        "You are not broken. You are not lazy. You are not too much or not enough. You are someone whose
+                        brain works in a particular way."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Author Section -->
+    <section class="py-20 bg-brand-light" id="author">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div
+                class="bg-white rounded-3xl p-8 md:p-12 shadow-xl border-t-4 border-brand-orange flex flex-col md:flex-row gap-10 items-center">
+                <div class="md:w-1/3 text-center">
+                    <div
+                        class="w-40 h-40 mx-auto bg-brand-sand rounded-full overflow-hidden border-4 border-white shadow-lg mb-6">
+                        <img src="author.jpg" alt="Farid Jafarli - Author of How to Live with ADHD"
+                            class="w-full h-full object-cover"
+                            onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\'fas fa-user text-6xl text-brand-teal/30 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2\'></i>';">
+                    </div>
+                    <h3 class="font-serif text-2xl font-bold text-brand-teal">Farid Jafarli</h3>
+                    <p class="text-brand-orange font-medium mt-2">Author & Researcher</p>
+                    <a href="https://www.amazon.com/stores/author/B0FNWPDCLQ/about" target="_blank"
+                        class="text-sm text-gray-500 underline mt-2 hover:text-brand-teal">Visit Author Page</a>
+                </div>
+                <div class="md:w-2/3">
+                    <h4 class="font-bold text-xl mb-4">"I wrote this because I was tired of the narrative that painted
+                        ADHD purely as a deficit."</h4>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Farid Jafarli isn't just an observer; he writes from the intersection of research and lived
+                        experience. Tired of advice that amounted to "try harder," Farid spent years exploring the
+                        neuroscience of the ADHD brain to find what actually works.
+                    </p>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        This book grew from thousands of conversations, late-night research deep dives, and the simple
+                        belief that understanding changes everything.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-24 bg-brand-teal text-center text-white relative overflow-hidden">
+        <!-- Background decoration -->
+        <div class="absolute inset-0 opacity-10 bg-texture"></div>
+
+        <div class="container mx-auto px-6 relative z-10">
+            <h2 class="font-serif text-4xl font-bold mb-6 text-brand-sand">Your Brain Doesn't Need Fixing.</h2>
+            <p class="text-xl text-white/80 mb-10 max-w-2xl mx-auto">
+                It just needs a manual written in its own language. Start your journey to understanding today.
+            </p>
+
+            <div class="flex flex-col items-center gap-4">
+                <a href="https://www.amazon.com/dp/B0FZHX53C3" target="_blank" onclick="trackAmazonClick('FooterCTA')"
+                    class="bg-brand-orange text-white px-12 py-5 rounded-full text-xl font-bold shadow-xl hover:bg-orange-600 hover:shadow-2xl transition-all transform hover:-translate-y-1 w-full md:w-auto max-w-md">
+                    Buy the Book on Amazon
+                </a>
+                <p class="text-sm text-white/60 mt-4">
+                    <i class="fas fa-lock text-xs"></i> Secure transaction via Amazon
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-dark text-white/60 py-12 border-t border-white/10">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="text-center md:text-left">
+                <p class="font-serif text-white text-lg font-bold mb-2">How to Live with ADHD</p>
+                <p class="text-sm">© 2024 Farid Jafarli. All rights reserved.</p>
+            </div>
+
+            <div class="flex gap-6">
+                <a href="#" class="hover:text-brand-sand transition-colors">Privacy Policy</a>
+                <a href="https://www.amazon.com/stores/author/B0FNWPDCLQ/about"
+                    class="hover:text-brand-sand transition-colors">Contact Author</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // UI Logic for Tabs
+        function switchTab(tabName) {
+            // Hide all content
+            document.getElementById('content-breaker').classList.add('hidden');
+            document.getElementById('content-reframe').classList.add('hidden');
+            document.getElementById('content-menu').classList.add('hidden');
+
+            // Reset tabs styles
+            const tabIds = ['tab-breaker', 'tab-reframe', 'tab-menu'];
+            tabIds.forEach(id => {
+                const el = document.getElementById(id);
+                el.classList.remove('text-brand-teal', 'border-brand-orange', 'bg-brand-light/30');
+                el.classList.add('text-gray-400', 'border-transparent');
+            });
+
+            // Activate selected
+            document.getElementById('content-' + tabName).classList.remove('hidden');
+            const activeTab = document.getElementById('tab-' + tabName);
+            activeTab.classList.add('text-brand-teal', 'border-brand-orange', 'bg-brand-light/30');
+            activeTab.classList.remove('text-gray-400', 'border-transparent');
+        }
+
+        // GEMINI API LOGIC
+        const apiKey = "AIzaSyCTdJQvmI2nuuAT4_KKwwj53lmDqB4WKUg"; // Empty string for environment injection
+
+        async function callGemini(prompt, systemInstruction) {
+            const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+
+            const payload = {
+                contents: [{ parts: [{ text: prompt }] }],
+                systemInstruction: { parts: [{ text: systemInstruction }] }
+            };
+
+            const delays = [1000, 2000, 4000, 8000, 16000];
+
+            for (let i = 0; i < 5; i++) {
+                try {
+                    const response = await fetch(url, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+
+                    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+
+                    const result = await response.json();
+                    return result.candidates?.[0]?.content?.parts?.[0]?.text || "I couldn't generate a response right now. Please try again.";
+
+                } catch (e) {
+                    if (i === 4) return "Sorry, the tool is currently overloaded. Please try again in a moment.";
+                    await new Promise(resolve => setTimeout(resolve, delays[i]));
+                }
+            }
+        }
+
+        // Tool 1: Micro-Step Generator
+        async function generateMicroSteps() {
+            const task = document.getElementById('taskInput').value;
+            if (!task) return alert("Please enter a task first!");
+
+            const btnText = document.getElementById('breakerBtnText');
+            const loader = document.getElementById('breakerLoader');
+            const outputDiv = document.getElementById('breakerResult');
+            const outputText = document.getElementById('breakerOutput');
+
+            // Loading State
+            btnText.textContent = "Thinking...";
+            loader.classList.remove('hidden');
+            outputDiv.classList.add('hidden');
+
+            const systemPrompt = `You are an empathetic ADHD coach. You help people overcome executive dysfunction and task paralysis by breaking tasks into "micro-steps". 
+            Take the user's task and break it down into 3-5 absurdly small, specific, and non-intimidating steps. 
+            The first step must be purely physical and take less than 10 seconds (e.g., "Stand up", "Open the laptop lid"). 
+            Tone: Warm, encouraging, non-judgmental. 
+            Format: Use an HTML unordered list (<ul> and <li> tags) with Tailwind classes for styling (list-disc pl-5 space-y-2).`;
+
+            const userPrompt = `My task is: "${task}". Break it down for me.`;
+
+            const result = await callGemini(userPrompt, systemPrompt);
+
+            // Display Result
+            outputText.innerHTML = result;
+            outputDiv.classList.remove('hidden');
+
+            // Reset Button
+            btnText.textContent = "Break it Down ✨";
+            loader.classList.add('hidden');
+        }
+
+        // Tool 2: Kindness Reframe
+        async function generateReframe() {
+            const thought = document.getElementById('thoughtInput').value;
+            if (!thought) return alert("Please enter a thought first!");
+
+            const btnText = document.getElementById('reframeBtnText');
+            const loader = document.getElementById('reframeLoader');
+            const outputDiv = document.getElementById('reframeResult');
+            const outputText = document.getElementById('reframeOutput');
+
+            // Loading State
+            btnText.textContent = "Thinking...";
+            loader.classList.remove('hidden');
+            outputDiv.classList.add('hidden');
+
+            const systemPrompt = `You are the compassionate author of the book 'How to Live with ADHD'. You advocate for self-compassion and understanding neurodiversity. 
+            A user is feeling shame or being self-critical. Rewrite their harsh inner critic thought into a compassionate, realistic statement that acknowledges ADHD symptoms are neurological, not moral failings. 
+            Keep it short, punchy, and kind (1-2 sentences max). Do not lecture. Just give the reframed thought.`;
+
+            const userPrompt = `My harsh thought is: "${thought}". Reframe this with kindness.`;
+
+            const result = await callGemini(userPrompt, systemPrompt);
+
+            // Display Result
+            outputText.textContent = `"${result.replace(/^"|"$/g, '')}"`; // Remove extra quotes if AI adds them
+            outputDiv.classList.remove('hidden');
+
+            // Reset Button
+            btnText.textContent = "Reframe with Kindness ✨";
+            loader.classList.add('hidden');
+        }
+
+        // Tool 3: Dopamine Menu Chef
+        async function generateDopamineMenu() {
+            const mood = document.getElementById('moodInput').value;
+            if (!mood) return alert("Please tell me how you're feeling first!");
+
+            const btnText = document.getElementById('menuBtnText');
+            const loader = document.getElementById('menuLoader');
+            const outputDiv = document.getElementById('menuResult');
+            const outputText = document.getElementById('menuOutput');
+
+            // Loading State
+            btnText.textContent = "Thinking...";
+            loader.classList.remove('hidden');
+            outputDiv.classList.add('hidden');
+
+            const systemPrompt = `You are an ADHD-friendly lifestyle coach. Create a 'Dopamine Menu' for a user based on their current mood. 
+            Provide 3 distinct options in this exact format using HTML styling:
+            <ul class="space-y-4">
+                <li class="bg-white p-4 rounded-lg shadow-sm border border-gray-100"><strong class="text-brand-orange">1. The Appetizer (Low Energy/Quick):</strong> [A 2-minute activity to get started, e.g., drink water, 5 jumping jacks]</li>
+                <li class="bg-white p-4 rounded-lg shadow-sm border border-gray-100"><strong class="text-brand-teal">2. The Main Course (Engaging):</strong> [A 15-minute engaging activity to flow, e.g., specific hobby, interesting video topic]</li>
+                <li class="bg-white p-4 rounded-lg shadow-sm border border-gray-100"><strong class="text-purple-600">3. The Side Dish (Sensory):</strong> [A sensory-grounding activity, e.g., weighted blanket, specific texture/music]</li>
+            </ul>
+            Activities should be specific to regulating the nervous system based on the user's mood (e.g. if 'Bored', suggest novelty; if 'Overwhelmed', suggest grounding). Tone: Fun, appetizing, supportive.`;
+
+            const userPrompt = `I am feeling: "${mood}". Give me a dopamine menu.`;
+
+            const result = await callGemini(userPrompt, systemPrompt);
+
+            // Display Result
+            outputText.innerHTML = result;
+            outputDiv.classList.remove('hidden');
+
+            // Reset Button
+            btnText.textContent = "Cook Up a Menu 🍳";
+            loader.classList.add('hidden');
+        }
+    </script>
+</body>
+
+</html>
