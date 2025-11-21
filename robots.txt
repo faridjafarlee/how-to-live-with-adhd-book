@@ -1,0 +1,32 @@
+# Robots.txt for How to Live with ADHD Book Website
+# This file tells search engines how to crawl your site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://how-to-live-with-adhd-book.netlify.app/sitemap.xml
+
+# Crawl-delay (optional - helps prevent server overload)
+Crawl-delay: 1
+
+# Block specific bots if needed (examples below - uncomment if needed)
+# User-agent: BadBot
+# Disallow: /
+
+# Allow Google Image Bot to index images
+User-agent: Googlebot-Image
+Allow: /
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /

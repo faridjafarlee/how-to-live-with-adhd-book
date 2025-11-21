@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    
+    <!-- Main Page -->
+    <url>
+        <loc>https://how-to-live-with-adhd-book.netlify.app/</loc>
+        <lastmod>2025-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        
+        <!-- Book Cover Image -->
+        <image:image>
+            <image:loc>https://how-to-live-with-adhd-book.netlify.app/HowToLiveWithADHD-ebook.jpg</image:loc>
+            <image:title>How to Live with ADHD Book Cover</image:title>
+            <image:caption>A Friendly Guide to Understanding and Living Well with Your Brain by Farid Jafarli</image:caption>
+        </image:image>
+        
+        <!-- Author Image -->
+        <image:image>
+            <image:loc>https://how-to-live-with-adhd-book.netlify.app/author.jpg</image:loc>
+            <image:title>Farid Jafarli - Author Photo</image:title>
+            <image:caption>Farid Jafarli, author of How to Live with ADHD</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Section Anchors (for better indexing of page sections) -->
+    <url>
+        <loc>https://how-to-live-with-adhd-book.netlify.app/#about</loc>
+        <lastmod>2025-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://how-to-live-with-adhd-book.netlify.app/#toolkit</loc>
+        <lastmod>2025-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://how-to-live-with-adhd-book.netlify.app/#author</loc>
+        <lastmod>2025-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://how-to-live-with-adhd-book.netlify.app/#reviews</loc>
+        <lastmod>2025-11-21</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Author Page on Amazon -->
+    <url>
+        <loc>https://www.amazon.com/stores/author/B0FNWPDCLQ/about</loc>
+        <lastmod>2025-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+</urlset>
